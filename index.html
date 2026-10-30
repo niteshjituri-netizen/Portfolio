@@ -1,0 +1,1322 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nitesh Jituri | Mechanical Engineer & Traditional Folk Artist</title>
+  <meta name="description" content="Portfolio of Nitesh Jituri - Mechanical Engineering Diploma Student, Certified CNC Programmer (VTU-NASD Grade A+), CAD & 3D Printing Specialist (GTTC Hubli), and Traditional Indian Folk Dancer & Flutist from Karnataka, India.">
+  <meta name="keywords" content="Nitesh Jituri, Mechanical Engineering, CNC Machining, VTU NASD Dandeli, GTTC Hubli, 3D Printing, CAD Design, Mysore Dasara, Yakshagana, Kamsale, Flute, Industrial Pumps, Motors, Karnataka">
+  <meta name="author" content="Nitesh Jituri">
+
+  <!-- Open Graph / Social Meta -->
+  <meta property="og:title" content="Nitesh Jituri | Mechanical Engineer & Folk Artist">
+  <meta property="og:description" content="Explore engineering projects, CNC machining, 3D printing, and Karnataka traditional folk arts performances by Nitesh Jituri.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/nitesh_profile.jpg">
+
+  <!-- Google Fonts Preconnect & Stylesheets -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Core Stylesheets -->
+  <link rel="stylesheet" href="css/style.css?v=2.0">
+  <link rel="stylesheet" href="css/animations.css?v=2.0">
+</head>
+<body>
+
+  <!-- =========================================================================
+       Site Header / Navigation
+       ========================================================================= -->
+  <header class="site-header" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="brand-logo" aria-label="Nitesh Jituri Home">
+        <div class="brand-badge">NJ</div>
+        <div class="brand-text">
+          <span class="brand-name">Nitesh Jituri</span>
+          <span class="brand-title">Mechanical & Cultural Arts</span>
+        </div>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#engineering" class="nav-link">Engineering & CNC</a></li>
+        <li><a href="#cultural" class="nav-link">Cultural Arts</a></li>
+        <li><a href="#certificates" class="nav-link">Certifications</a></li>
+        <li><a href="#timeline" class="nav-link">Journey</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button id="themeToggleBtn" class="icon-btn" aria-label="Toggle Dark/Light Theme" title="Toggle Theme">
+          <span id="themeIcon">☀️</span>
+        </button>
+        <a href="#contact" class="btn btn-primary btn-sm">Get In Touch</a>
+        <button class="icon-btn mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Mobile Menu">
+          ☰
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- =========================================================================
+         Hero Section
+         ========================================================================= -->
+    <section class="hero-section" id="home">
+      <canvas id="heroBgCanvas" class="hero-bg-canvas"></canvas>
+
+      <div class="container">
+        <div class="hero-content-grid">
+          <div class="hero-text-col">
+            <div class="hero-pill-badge">
+              <span class="pulse-dot"></span>
+              <span>Karnataka, India</span>
+            </div>
+
+            <h1 class="hero-headline">
+              Namaskara, I'm <br>
+              <span class="shimmer-text">Nitesh Jituri</span><br>
+              <span class="typed-role" id="typedRole">Mechanical Engineer</span>
+            </h1>
+
+            <p class="hero-description">
+              A dedicated <strong>Mechanical Engineering diploma student</strong> specializing in <strong>CNC Machining, 3D CAD & Prototyping, Industrial Pumps, Motors & Precision Manufacturing</strong>, combined with the soul of a trained <strong>Indian Folk Dancer, Mysore Dasara Performer & Flutist</strong>.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#engineering" class="btn btn-primary">
+                <span>⚙️</span> Explore Engineering
+              </a>
+              <a href="#cultural" class="btn btn-gold">
+                <span>🪈</span> Cultural Achievements
+              </a>
+            </div>
+
+            <div class="hero-quick-stats">
+              <div class="stat-item">
+                <span class="stat-number cyan-gradient-text" data-target="160" data-suffix="+ Hrs">160+ Hrs</span>
+                <span class="stat-label">VTU-NASD CNC Training</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number gold-gradient-text">Grade A+</span>
+                <span class="stat-label">Skill Competency Award</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number cyan-gradient-text" data-target="4" data-suffix=" Verified">4 Verified</span>
+                <span class="stat-label">Industry Certifications</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number gold-gradient-text" data-target="5" data-suffix="+ Arts">5+ Arts</span>
+                <span class="stat-label">Folk Art Forms Mastered</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual-col">
+            <div class="avatar-wrapper">
+              <div class="avatar-gear-bg animate-spin-slow"></div>
+              <div class="avatar-glow"></div>
+              <div class="avatar-image-frame">
+                <img src="assets/images/nitesh_profile.jpg" alt="Nitesh Jituri - Mechanical Engineer & Artist" width="360" height="360">
+              </div>
+
+              <!-- Floating Badges -->
+              <div class="floating-badge badge-top animate-float">
+                <div class="badge-icon-box">🏆</div>
+                <div class="badge-info">
+                  <span class="badge-title">VTU-NASD Certified</span>
+                  <span class="badge-sub">CNC Turning & Milling (A+)</span>
+                </div>
+              </div>
+
+              <div class="floating-badge badge-bottom animate-float-reverse">
+                <div class="badge-icon-box">🪈</div>
+                <div class="badge-info">
+                  <span class="badge-title">Mysore Dasara Artist</span>
+                  <span class="badge-sub">Jamboo Savari Performer</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         Domain View Filter Bar
+         ========================================================================= -->
+    <div class="container">
+      <div class="filter-bar-wrapper">
+        <div class="filter-bar">
+          <button class="filter-btn active" data-filter="all">🌐 All Domains</button>
+          <button class="filter-btn" data-filter="engineering">⚙️ Mechanical Engineering & CNC</button>
+          <button class="filter-btn gold" data-filter="cultural">🪈 Cultural Arts & Heritage</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- =========================================================================
+         About Section
+         ========================================================================= -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag">About Nitesh</span>
+          <h2 class="section-title">Bridging Precision Engineering with Cultural Heritage</h2>
+          <p class="section-subtitle">
+            A unique fusion of modern manufacturing, CAD design, and dedication to traditional Indian performing arts.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="glass-card about-intro-card reveal-on-scroll">
+            <h3 class="cyan-gradient-text" style="font-size: 1.5rem;">Hands-on Engineer & Cultural Ambassador</h3>
+            <p>
+              I am a <strong>Mechanical Engineering diploma student</strong> at <strong>Government Polytechnic, Mundagod</strong> (affiliated with the Department of Collegiate and Technical Education, Bangalore, Karnataka), passionate about precision CNC machining, 3D CAD modeling, manufacturing technology, industrial pumps, and electric motors.
+            </p>
+            <p>
+              I completed an intensive 16-week industrial internship in <strong>Advance Manufacturing Technology</strong> at the prestigious <strong>Govt. Tool Room and Training Centre (GTTC Hubli - Indo-Danish Project)</strong>, mastering 3D CAD modeling, 2D drafting with GD&T, rapid prototyping, and precision 3D printing. Furthermore, I achieved top <strong>Grade "A+" (>80%)</strong> in <strong>CNC Programming & Operation (Turning & Milling)</strong> from <strong>VTU-NASD Dandeli</strong> (160 Hours).
+            </p>
+            <p>
+              Alongside engineering, I am a trained folk dancer and Indian bamboo flute player (Bansuri) with deep reverence for Indian cultural heritage. Having performed at the world-famous <strong>Mysore Dasara Jamboo Savari</strong> and on the <strong>Hon'ble Chief Minister’s Stage on multiple occasions</strong>, I bring discipline, stage presence, and stamina into every endeavor.
+            </p>
+            <p>
+              I am also actively involved as a dedicated volunteer (<strong>Karyakarta</strong>) with the <strong>Rashtriya Swayamsevak Sangh (RSS)</strong>, contributing to community development, social initiatives, and cultural preservation across Karnataka.
+            </p>
+            <div style="display: flex; gap: 1rem; margin-top: 0.5rem; flex-wrap: wrap;">
+              <span class="badge">🎓 Govt. Polytechnic Mundagod</span>
+              <span class="badge">⚙️ GTTC Hubli 16-Wk Intern</span>
+              <span class="badge badge-gold">🏆 VTU-NASD Grade A+</span>
+              <span class="badge badge-saffron">✨ RSS Volunteer (Karyakarta)</span>
+            </div>
+          </div>
+
+          <div class="about-pillar-grid">
+            <div class="glass-card pillar-card reveal-on-scroll stagger-delay-1" data-domain="engineering">
+              <div class="pillar-icon-box">⚙️</div>
+              <h4 class="pillar-title">CNC & Manufacturing</h4>
+              <p class="pillar-desc">
+                VTU-NASD certified with Grade A+ in CNC Programming & Operation (Turning & Milling), G-code/M-code, tooling offsets, and precision machining.
+              </p>
+            </div>
+
+            <div class="glass-card pillar-card reveal-on-scroll stagger-delay-2" data-domain="engineering">
+              <div class="pillar-icon-box">📐</div>
+              <h4 class="pillar-title">3D Design & 3D Printing</h4>
+              <p class="pillar-desc">
+                Trained at GTTC Hubli in 3D CAD modeling, 2D drafting, FDM 3D printing, prototyping, and mechanical assembly design.
+              </p>
+            </div>
+
+            <div class="glass-card pillar-card gold reveal-on-scroll stagger-delay-3" data-domain="cultural">
+              <div class="pillar-icon-box">🪈</div>
+              <h4 class="pillar-title">Traditional Arts & Flute</h4>
+              <p class="pillar-desc">
+                Trained folk dancer in Yakshagana, Kamsale, Kolata, and Tamate, alongside playing melodious classical & folk bansuri tunes.
+              </p>
+            </div>
+
+            <div class="glass-card pillar-card saffron reveal-on-scroll stagger-delay-4" data-domain="cultural">
+              <div class="pillar-icon-box">🚩</div>
+              <h4 class="pillar-title">Community & Leadership</h4>
+              <p class="pillar-desc">
+                Active volunteer (Karyakarta) with RSS, dedicated to cultural preservation, youth coordination, and social initiatives.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         Engineering & Technical Excellence Section
+         ========================================================================= -->
+    <section class="section" id="engineering" data-domain="engineering">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag">Engineering Domain</span>
+          <h2 class="section-title">Technical Expertise & Industrial Capabilities</h2>
+          <p class="section-subtitle">
+            Practical skills honed through 160+ hours of certified CNC training, GTTC Hubli 3D design & 3D printing training, and machinery systems analysis.
+          </p>
+        </div>
+
+        <div class="engineering-showcase-grid" style="grid-template-columns: repeat(2, 1fr);">
+          <!-- Card 1: CNC Machining -->
+          <div class="glass-card eng-card reveal-on-scroll">
+            <div class="eng-card-image">
+              <img src="assets/images/cnc_machining.jpg" alt="CNC Machining Center" loading="lazy">
+              <span class="eng-card-badge">VTU-NASD Grade A+</span>
+            </div>
+            <h3 class="eng-card-title">CNC Programming & Operation</h3>
+            <p class="eng-card-desc">
+              Comprehensive programming and hands-on operation of CNC Lathe (Turning) and Vertical Machining Centers (Milling). Proficient in ISO G-codes, M-codes, tool offset setting, work coordinate system (WCS G54), canned cycles, and precision turning.
+            </p>
+            <ul class="eng-tag-list">
+              <li class="eng-tag">G00/G01/G02/G03</li>
+              <li class="eng-tag">CNC Lathe Turning</li>
+              <li class="eng-tag">3-Axis VMC Milling</li>
+              <li class="eng-tag">Canned Cycles G71/G72</li>
+              <li class="eng-tag">Tool Offsets</li>
+            </ul>
+          </div>
+
+          <!-- Card 2: 3D Designing & 3D Printing (GTTC Hubli) -->
+          <div class="glass-card eng-card reveal-on-scroll stagger-delay-1">
+            <div class="eng-card-image">
+              <img src="assets/images/cad_3d_printing.jpg" alt="3D CAD Design and 3D Printing Prototyping" loading="lazy">
+              <span class="eng-card-badge">GTTC Hubli Trained</span>
+            </div>
+            <h3 class="eng-card-title">3D Design, 2D Drafting & 3D Printing</h3>
+            <p class="eng-card-desc">
+              Specialized training at GTTC Hubli in CAD-based 3D modeling, mechanical assembly design, 2D technical drawings with GD&T standards, rapid prototyping, and additive manufacturing via precision 3D printing.
+            </p>
+            <ul class="eng-tag-list">
+              <li class="eng-tag">3D CAD Modeling</li>
+              <li class="eng-tag">2D Technical Drawing</li>
+              <li class="eng-tag">3D Printing / Prototyping</li>
+              <li class="eng-tag">Mechanical Assemblies</li>
+              <li class="eng-tag">GD&T Drafting</li>
+            </ul>
+          </div>
+
+          <!-- Card 3: Industrial Pumps & Motors -->
+          <div class="glass-card eng-card reveal-on-scroll stagger-delay-2">
+            <div class="eng-card-image">
+              <img src="assets/images/industrial_pumps_motors.jpg" alt="Industrial Pumps and Motors" loading="lazy">
+              <span class="eng-card-badge">Industrial Systems</span>
+            </div>
+            <h3 class="eng-card-title">Pumps & Electric Motors</h3>
+            <p class="eng-card-desc">
+              In-depth study and practical maintenance of centrifugal pumps, submersible pumps, impellers, mechanical seals, and 3-phase induction motors. Understanding of head vs flow curves, cavitation prevention, and motor-pump coupling alignment.
+            </p>
+            <ul class="eng-tag-list">
+              <li class="eng-tag">Centrifugal Pumps</li>
+              <li class="eng-tag">Induction Motors</li>
+              <li class="eng-tag">Impeller Design</li>
+              <li class="eng-tag">Shaft Alignment</li>
+              <li class="eng-tag">Flow Curves</li>
+            </ul>
+          </div>
+
+          <!-- Card 4: Mechanical Maintenance & Metrology -->
+          <div class="glass-card eng-card reveal-on-scroll stagger-delay-3">
+            <div class="eng-card-image" style="background: linear-gradient(135deg, #0b1528, #162a4d); display:flex; align-items:center; justify-content:center;">
+              <div style="font-size: 4.5rem; color: #00d2ff;">📐</div>
+              <span class="eng-card-badge">Metrology & Quality</span>
+            </div>
+            <h3 class="eng-card-title">Metrology & Mechanical Systems</h3>
+            <p class="eng-card-desc">
+              Proficient in high-precision measurement instruments including Vernier Calipers, Micrometers, Height Gauges, and Dial Indicators. Knowledge of preventive maintenance routines, lubrication regimes, machine alignment, and engineering drawing interpretation.
+            </p>
+            <ul class="eng-tag-list">
+              <li class="eng-tag">Precision Metrology</li>
+              <li class="eng-tag">Preventive Maintenance</li>
+              <li class="eng-tag">Shaft & Coupling Alignment</li>
+              <li class="eng-tag">Dial Gauges</li>
+              <li class="eng-tag">Quality Inspection</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Interactive CNC G-Code Simulator Widget -->
+        <div class="cnc-simulator-container reveal-on-scroll" style="margin-top: 3rem;">
+          <div class="simulator-header">
+            <div class="sim-brand">
+              <span class="sim-indicator"></span>
+              <h3 class="sim-title">Interactive CNC Toolpath Simulator</h3>
+            </div>
+            <div class="sim-presets">
+              <label for="simPresetSelect">Operation Preset:</label>
+              <select id="simPresetSelect" class="sim-select">
+                <option value="turning_step">CNC Lathe: Step Turning & Chamfer</option>
+                <option value="milling_contour">CNC VMC: Pocket Contour & Profile</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="simulator-grid">
+            <!-- Code Editor Panel -->
+            <div class="cnc-code-panel">
+              <div class="cnc-editor-wrapper" id="cncCodeEditor">
+                <!-- Populated via JavaScript -->
+              </div>
+              <div class="cnc-controls">
+                <button class="btn btn-primary btn-sm" id="btnCncRun">
+                  <span>▶</span> Run Toolpath
+                </button>
+                <button class="btn btn-secondary btn-sm" id="btnCncReset">
+                  <span>↺</span> Reset
+                </button>
+              </div>
+            </div>
+
+            <!-- Canvas Viewport Panel -->
+            <div class="cnc-canvas-panel">
+              <div class="canvas-viewport-wrapper">
+                <canvas id="cncCanvas"></canvas>
+              </div>
+
+              <!-- Real-time HUD Readouts -->
+              <div class="sim-readout-hud">
+                <div class="hud-box">
+                  <span class="hud-label">COORDINATE</span>
+                  <span class="hud-value" id="hudX">X 0.0</span>
+                </div>
+                <div class="hud-box">
+                  <span class="hud-label">AXIS FEED</span>
+                  <span class="hud-value" id="hudZ">Z 0.0</span>
+                </div>
+                <div class="hud-box">
+                  <span class="hud-label">SPINDLE</span>
+                  <span class="hud-value" id="hudRPM">0 RPM</span>
+                </div>
+                <div class="hud-box">
+                  <span class="hud-label">FEED RATE</span>
+                  <span class="hud-value" id="hudFeed">0 mm/m</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         Cultural Heritage & Performing Arts Section
+         ========================================================================= -->
+    <section class="section" id="cultural" data-domain="cultural">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag gold">Cultural Heritage</span>
+          <h2 class="section-title">Traditional Indian Performing Arts & Flute</h2>
+          <p class="section-subtitle">
+            Celebrating Karnataka’s glorious folklore through Yakshagana, Kamsale, Mysore Dasara, and the divine melody of the Indian bamboo flute.
+          </p>
+        </div>
+
+        <!-- Featured Mysore Dasara & CM Stage Card -->
+        <div class="cultural-hero-card reveal-on-scroll">
+          <img src="assets/images/karnataka_cultural_arts.jpg" alt="Mysore Dasara and Folk Arts" class="cultural-hero-bg" loading="lazy">
+          <div class="cultural-hero-overlay">
+            <div class="cultural-hero-badges">
+              <span class="badge badge-gold">👑 Mysore Dasara Jamboo Savari Performer</span>
+              <span class="badge badge-saffron">🏛️ Performed on Chief Minister's Stage</span>
+              <span class="badge">🪈 Classical & Folk Flutist</span>
+            </div>
+            <h3 class="cultural-hero-title">Performing on Prestigious State & Cultural Stages</h3>
+            <p class="cultural-hero-desc">
+              Had the immense honor and privilege to perform at the world-renowned <strong>Mysore Dasara Jamboo Savari</strong> procession, witnessed by millions worldwide. Furthermore, performed traditional folk dances on the <strong>Hon'ble Chief Minister’s Stage on multiple prestigious state occasions</strong>, showcasing Karnataka's rich cultural tapestry.
+            </p>
+          </div>
+        </div>
+
+        <!-- Traditional Art Forms Grid -->
+        <div class="cultural-art-grid">
+          <!-- Yakshagana -->
+          <div class="glass-card gold-accent art-card reveal-on-scroll">
+            <div class="art-icon-heading">
+              <div class="art-emoji">🎭</div>
+              <div>
+                <h4 class="art-title">Yakshagana</h4>
+                <span class="art-origin">Coastal & Malenadu Karnataka</span>
+              </div>
+            </div>
+            <p class="art-desc">
+              Majestic traditional theatre and dance combining elaborate vibrant costumes, heavy headgear (Mudi), intricate footwork, expressive Navarasa acting, and mythological storytelling.
+            </p>
+            <ul class="art-highlights">
+              <li>Classical footwork & rhythm</li>
+              <li>Mythological character portrayal</li>
+              <li>Dynamic stage presence & stamina</li>
+            </ul>
+          </div>
+
+          <!-- Kamsale -->
+          <div class="glass-card gold-accent art-card reveal-on-scroll stagger-delay-1">
+            <div class="art-icon-heading">
+              <div class="art-emoji">🥁</div>
+              <div>
+                <h4 class="art-title">Kamsale</h4>
+                <span class="art-origin">Southern Karnataka Folk Art</span>
+              </div>
+            </div>
+            <p class="art-desc">
+              A high-energy, rhythmic folk dance dedicated to Lord Male Mahadeshwara using heavy brass cymbals (Kamsale), requiring lightning-fast reflexes and acrobatic synchronization.
+            </p>
+            <ul class="art-highlights">
+              <li>Synchronized brass cymbal beats</li>
+              <li>Acrobatic leaps and spins</li>
+              <li>Spiritual folklore narration</li>
+            </ul>
+          </div>
+
+          <!-- Kolata & Tamate -->
+          <div class="glass-card gold-accent art-card reveal-on-scroll stagger-delay-2">
+            <div class="art-icon-heading">
+              <div class="art-emoji">🥢</div>
+              <div>
+                <h4 class="art-title">Kolata & Tamate</h4>
+                <span class="art-origin">Traditional Folk Dances</span>
+              </div>
+            </div>
+            <p class="art-desc">
+              Mastery of <strong>Kolata</strong> (traditional rhythmic stick dance with interlocking group patterns) and <strong>Tamate</strong> (high-energy percussion dance that electrifies cultural processions).
+            </p>
+            <ul class="art-highlights">
+              <li>Complex group choreography</li>
+              <li>High-tempo percussion rhythm</li>
+              <li>Mass cultural parade performances</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Interactive Virtual Bamboo Flute Synthesizer -->
+        <div class="flute-synth-card reveal-on-scroll">
+          <div class="flute-header">
+            <div class="flute-info">
+              <span class="flute-icon">🪈</span>
+              <div>
+                <h3 class="flute-title">Interactive Virtual Bamboo Flute (Bansuri)</h3>
+                <span class="flute-subtitle">Synthesized with Native Web Audio API • Click keys or press numbers 1-8</span>
+              </div>
+            </div>
+            <div class="flute-melody-presets">
+              <button class="btn btn-outline-gold btn-sm btn-melody" id="btn-play-bhupali">▶ Raag Bhupali</button>
+              <button class="btn btn-outline-gold btn-sm btn-melody" id="btn-play-folk">▶ Folk Melody</button>
+            </div>
+          </div>
+
+          <!-- Flute Swara Keys -->
+          <div class="flute-keyboard">
+            <div class="flute-key" data-swara="Sa">
+              <span class="swara-name">सा</span>
+              <span class="western-note">Sa (C4)</span>
+              <span class="key-shortcut">Key 1</span>
+            </div>
+            <div class="flute-key" data-swara="Re">
+              <span class="swara-name">रे</span>
+              <span class="western-note">Re (D4)</span>
+              <span class="key-shortcut">Key 2</span>
+            </div>
+            <div class="flute-key" data-swara="Ga">
+              <span class="swara-name">ग</span>
+              <span class="western-note">Ga (E4)</span>
+              <span class="key-shortcut">Key 3</span>
+            </div>
+            <div class="flute-key" data-swara="Ma">
+              <span class="swara-name">म</span>
+              <span class="western-note">Ma (F4)</span>
+              <span class="key-shortcut">Key 4</span>
+            </div>
+            <div class="flute-key" data-swara="Pa">
+              <span class="swara-name">प</span>
+              <span class="western-note">Pa (G4)</span>
+              <span class="key-shortcut">Key 5</span>
+            </div>
+            <div class="flute-key" data-swara="Dha">
+              <span class="swara-name">ध</span>
+              <span class="western-note">Dha (A4)</span>
+              <span class="key-shortcut">Key 6</span>
+            </div>
+            <div class="flute-key" data-swara="Ni">
+              <span class="swara-name">नि</span>
+              <span class="western-note">Ni (B4)</span>
+              <span class="key-shortcut">Key 7</span>
+            </div>
+            <div class="flute-key" data-swara="Sa^">
+              <span class="swara-name">सां</span>
+              <span class="western-note">Sa' (C5)</span>
+              <span class="key-shortcut">Key 8</span>
+            </div>
+          </div>
+
+          <!-- Visualizer Bars -->
+          <div class="flute-visualizer-bar">
+            <span class="freq-bar"></span>
+            <span class="freq-bar"></span>
+            <span class="freq-bar"></span>
+            <span class="freq-bar"></span>
+            <span class="freq-bar"></span>
+            <span class="freq-bar"></span>
+            <span class="freq-bar"></span>
+            <span class="freq-bar"></span>
+            <span class="freq-bar"></span>
+            <span class="freq-bar"></span>
+            <span class="freq-bar"></span>
+            <span class="freq-bar"></span>
+            <span class="freq-bar"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         Verified Certifications & Qualifications Section
+         ========================================================================= -->
+    <section class="section" id="certificates">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Verified Credentials</span>
+          <h2 class="section-title">Certificates & Industry Credentials</h2>
+          <p class="section-subtitle">
+            Authentic certifications and internship qualifications verified by premier technological universities, government tool rooms, and global tech platforms.
+          </p>
+        </div>
+
+        <div class="cert-grid-showcase">
+          <!-- Certificate 1: VTU-NASD CNC -->
+          <div class="cert-item-card gold-accent">
+            <div class="cert-card-preview btn-open-cert-modal" data-cert-idx="0" title="Click to view full certificate">
+              <img src="assets/certificates/nitesh_cnc_certificate.jpg" alt="VTU-NASD CNC Programming & Operation Certificate - Nitesh Jituri">
+              <div class="cert-hover-overlay">
+                <span>🔍 Click to Inspect Full Certificate</span>
+              </div>
+            </div>
+            <div class="cert-card-content">
+              <div class="cert-tag-row">
+                <span class="badge badge-gold">★ Grade Secured "A+" (>80%)</span>
+                <span class="badge">160 Hours (30 Days)</span>
+              </div>
+              <h3 class="cert-card-title">CNC Programming & Operation – Turning & Milling</h3>
+              <div class="cert-issuer-row">
+                <span>🏛️</span>
+                <span>VTU - National Academy for Skill Development (NASD), Dandeli</span>
+              </div>
+              <div class="cert-meta-pills">
+                <span class="cert-pill gold">ID: VTU/NASD/2025-26/CNC/B01-5</span>
+                <span class="cert-pill">19 May 2025 – 20 June 2025</span>
+              </div>
+              <p class="cert-card-desc">
+                Intensive hands-on industrial qualification covering ISO G/M-Codes, CNC Lathe Turning, 3-Axis Vertical Machining Centers (VMC), canned cycles, tool offset geometry, and precision tolerances.
+              </p>
+              <div class="cert-card-actions">
+                <button class="btn btn-primary btn-sm btn-open-cert-modal" data-cert-idx="0">
+                  <span>🔍</span> View Certificate
+                </button>
+                <a href="assets/certificates/vtu_nasd_cnc_certificate.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                  <span>📄</span> View PDF ↗
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Certificate 2: GTTC Hubli Advanced Manufacturing -->
+          <div class="cert-item-card">
+            <div class="cert-card-preview btn-open-cert-modal" data-cert-idx="1" title="Click to view full certificate">
+              <img src="assets/certificates/gttc_certificate.jpg" alt="GTTC Hubli Advance Manufacturing Technology Certificate - Nitesh Gopal Jituri">
+              <div class="cert-hover-overlay">
+                <span>🔍 Click to Inspect Full Certificate</span>
+              </div>
+            </div>
+            <div class="cert-card-content">
+              <div class="cert-tag-row">
+                <span class="badge">16-Week Intensive Internship</span>
+                <span class="badge">Govt. of Karnataka</span>
+              </div>
+              <h3 class="cert-card-title">Advance Manufacturing Technology</h3>
+              <div class="cert-issuer-row">
+                <span>⚙️</span>
+                <span>Govt. Tool Room and Training Centre (GTTC Hubli - Indo-Danish Project)</span>
+              </div>
+              <div class="cert-meta-pills">
+                <span class="cert-pill">Ref: GTTC/INT/DIP-IA/25-26/8</span>
+                <span class="cert-pill">Reg: 167ME23033</span>
+                <span class="cert-pill">22 Dec 2025 – 11 Apr 2026</span>
+              </div>
+              <p class="cert-card-desc">
+                Comprehensive training in 3D CAD modeling, 2D technical drawings with GD&T, rapid prototyping, additive manufacturing via precision 3D printing, and mechanical workshop practice.
+              </p>
+              <div class="cert-card-actions">
+                <button class="btn btn-primary btn-sm btn-open-cert-modal" data-cert-idx="1">
+                  <span>🔍</span> View Certificate
+                </button>
+                <a href="assets/certificates/gttc_advanced_manufacturing_certificate.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                  <span>📄</span> View PDF ↗
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Certificate 3: GitHub Copilot Prompt Engineering -->
+          <div class="cert-item-card">
+            <div class="cert-card-preview btn-open-cert-modal" data-cert-idx="2" title="Click to view full certificate">
+              <img src="assets/certificates/github_copilot_prompt_engineering.jpg" alt="GitHub Copilot Prompt Engineering Certificate - Nitesh Jituri">
+              <div class="cert-hover-overlay">
+                <span>🔍 Click to Inspect Full Certificate</span>
+              </div>
+            </div>
+            <div class="cert-card-content">
+              <div class="cert-tag-row">
+                <span class="badge badge-cyan">Powered by Microsoft</span>
+                <span class="badge">Simplilearn SkillUP</span>
+              </div>
+              <h3 class="cert-card-title">Prompt Engineering with GitHub Copilot</h3>
+              <div class="cert-issuer-row">
+                <span>🤖</span>
+                <span>Simplilearn SkillUP & Microsoft</span>
+              </div>
+              <div class="cert-meta-pills">
+                <span class="cert-pill">Code: 10962930</span>
+                <span class="cert-pill">29th October 2026</span>
+              </div>
+              <p class="cert-card-desc">
+                Certified proficiency in engineering AI prompt architecture, automated code synthesis, contextual code completion, and enhancing modern technical workflow productivity.
+              </p>
+              <div class="cert-card-actions">
+                <button class="btn btn-primary btn-sm btn-open-cert-modal" data-cert-idx="2">
+                  <span>🔍</span> View Certificate
+                </button>
+                <a href="assets/certificates/github_copilot_prompt_engineering.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                  <span>📄</span> View PDF ↗
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Certificate 4: Google Drive Cloud Productivity -->
+          <div class="cert-item-card">
+            <div class="cert-card-preview btn-open-cert-modal" data-cert-idx="3" title="Click to view full certificate">
+              <img src="assets/certificates/google_cloud_drive.jpg" alt="Google Drive Certificate - Nitesh Jituri">
+              <div class="cert-hover-overlay">
+                <span>🔍 Click to Inspect Full Certificate</span>
+              </div>
+            </div>
+            <div class="cert-card-content">
+              <div class="cert-tag-row">
+                <span class="badge badge-emerald">Powered by Google Cloud</span>
+                <span class="badge">Simplilearn SkillUP</span>
+              </div>
+              <h3 class="cert-card-title">Google Drive - Cloud Productivity & Management</h3>
+              <div class="cert-issuer-row">
+                <span>☁️</span>
+                <span>Simplilearn SkillUP & Google Cloud</span>
+              </div>
+              <div class="cert-meta-pills">
+                <span class="cert-pill emerald">Code: 10964849</span>
+                <span class="cert-pill">29th October 2026</span>
+              </div>
+              <p class="cert-card-desc">
+                Mastery of cloud workspace organization, digital documentation management, enterprise access controls, collaborative sharing workflows, and Google Cloud productivity integration.
+              </p>
+              <div class="cert-card-actions">
+                <button class="btn btn-primary btn-sm btn-open-cert-modal" data-cert-idx="3">
+                  <span>🔍</span> View Certificate
+                </button>
+                <a href="assets/certificates/google_cloud_drive.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                  <span>📄</span> View PDF ↗
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         Journey & Experience Timeline
+         ========================================================================= -->
+    <section class="section" id="timeline">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag">Career & Cultural Roadmap</span>
+          <h2 class="section-title">Milestones & Experiences</h2>
+          <p class="section-subtitle">
+            A chronological timeline of engineering education, GTTC 3D design training, VTU CNC certification, prestigious cultural performances, and social contributions.
+          </p>
+        </div>
+
+        <div class="timeline-wrapper">
+          <div class="timeline-line"></div>
+
+          <!-- Timeline Item 1 -->
+          <div class="timeline-item reveal-on-scroll" data-domain="engineering">
+            <div class="timeline-dot"></div>
+            <div class="glass-card timeline-card">
+              <span class="timeline-date">2023 - PRESENT</span>
+              <h3 class="timeline-title">Diploma in Mechanical Engineering</h3>
+              <p class="timeline-desc">
+                Pursuing diploma education at <strong>Government Polytechnic, Mundagod</strong> (DTE Karnataka, Reg: 167ME23033), focusing on manufacturing processes, CNC technology, industrial pumps, motors, and mechanical maintenance.
+              </p>
+            </div>
+          </div>
+
+          <!-- Timeline Item 2 -->
+          <div class="timeline-item reveal-on-scroll" data-domain="engineering">
+            <div class="timeline-dot"></div>
+            <div class="glass-card timeline-card">
+              <span class="timeline-date">MAY 2025 - JUNE 2025</span>
+              <h3 class="timeline-title">VTU-NASD Intensive CNC Certification (Grade A+)</h3>
+              <p class="timeline-desc">
+                Completed 160 hours (30 days) of rigorous industrial CNC Turning and Milling programming and operation at the VTU-National Academy for Skill Development, Dandeli, securing top Grade "A+" (>80%).
+              </p>
+            </div>
+          </div>
+
+          <!-- Timeline Item 3 -->
+          <div class="timeline-item reveal-on-scroll" data-domain="engineering">
+            <div class="timeline-dot"></div>
+            <div class="glass-card timeline-card">
+              <span class="timeline-date">DEC 2025 - APR 2026</span>
+              <h3 class="timeline-title">16-Week Advance Manufacturing Internship at GTTC Hubli</h3>
+              <p class="timeline-desc">
+                Completed an intensive 16-week internship at the Government Tool Room & Training Centre (GTTC Hubli - Indo-Danish Project), mastering 3D CAD modeling, 2D technical drawings with GD&T, and precision 3D printing prototyping.
+              </p>
+            </div>
+          </div>
+
+          <!-- Timeline Item 4 -->
+          <div class="timeline-item reveal-on-scroll" data-domain="engineering">
+            <div class="timeline-dot"></div>
+            <div class="glass-card timeline-card">
+              <span class="timeline-date">OCTOBER 2026</span>
+              <h3 class="timeline-title">Microsoft & Google Cloud Industry Certifications</h3>
+              <p class="timeline-desc">
+                Earned certifications in <strong>Prompt Engineering with GitHub Copilot (Microsoft Powered)</strong> and <strong>Google Drive Cloud Management (Google Cloud Powered)</strong> via Simplilearn SkillUP.
+              </p>
+            </div>
+          </div>
+
+          <!-- Timeline Item 5 -->
+          <div class="timeline-item gold reveal-on-scroll" data-domain="cultural">
+            <div class="timeline-dot"></div>
+            <div class="glass-card gold-accent timeline-card">
+              <span class="timeline-date">CULTURAL MILESTONE</span>
+              <h3 class="timeline-title">Mysore Dasara Jamboo Savari Performance</h3>
+              <p class="timeline-desc">
+                Selected and performed in the grand Mysore Dasara Jamboo Savari cultural procession, presenting traditional Karnataka folk art before hundreds of thousands of spectators and dignitaries.
+              </p>
+            </div>
+          </div>
+
+          <!-- Timeline Item 6 -->
+          <div class="timeline-item gold reveal-on-scroll" data-domain="cultural">
+            <div class="timeline-dot"></div>
+            <div class="glass-card gold-accent timeline-card">
+              <span class="timeline-date">STATE RECOGNITION</span>
+              <h3 class="timeline-title">Hon'ble Chief Minister's Stage Performances</h3>
+              <p class="timeline-desc">
+                Honored to showcase traditional folk dances on multiple occasions on the prestigious Chief Minister's Stage during state cultural celebrations and youth festivals.
+              </p>
+            </div>
+          </div>
+
+          <!-- Timeline Item 7 -->
+          <div class="timeline-item saffron reveal-on-scroll" data-domain="cultural">
+            <div class="timeline-dot"></div>
+            <div class="glass-card timeline-card">
+              <span class="timeline-date">COMMUNITY LEADERSHIP</span>
+              <h3 class="timeline-title">Rashtriya Swayamsevak Sangh (RSS) Volunteer</h3>
+              <p class="timeline-desc">
+                Active volunteer (Karyakarta) participating in social initiatives, discipline training, cultural heritage promotion, and community welfare programs across Karnataka.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         Skills Matrix Section
+         ========================================================================= -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag">Capabilities</span>
+          <h2 class="section-title">Skills & Proficiencies</h2>
+          <p class="section-subtitle">
+            A balanced overview of machining competencies, CAD & 3D printing design, industrial systems knowledge, performing arts, and personal attributes.
+          </p>
+        </div>
+
+        <div class="skills-category-grid">
+          <!-- Category 1: Technical & Machining -->
+          <div class="glass-card skill-category-card reveal-on-scroll" data-domain="engineering">
+            <div class="skill-cat-header">
+              <span style="font-size: 1.5rem;">⚙️</span>
+              <h3 class="skill-cat-title">Machining & Manufacturing</h3>
+            </div>
+            <div class="skill-cards-list">
+              <!-- Skill Item 1 -->
+              <div class="skill-item-card">
+                <div class="skill-header-row">
+                  <div class="skill-name-wrap">
+                    <span>🔩</span> CNC Turning & Facing
+                  </div>
+                  <span class="skill-level-badge">VTU Grade A+</span>
+                </div>
+                <div class="skill-chips-row">
+                  <span class="skill-chip">G-Code / M-Code</span>
+                  <span class="skill-chip">Canned Cycles</span>
+                  <span class="skill-chip">Tool Offsets</span>
+                </div>
+              </div>
+
+              <!-- Skill Item 2 -->
+              <div class="skill-item-card">
+                <div class="skill-header-row">
+                  <div class="skill-name-wrap">
+                    <span>⚙️</span> CNC Milling (3-Axis VMC)
+                  </div>
+                  <span class="skill-level-badge">Certified</span>
+                </div>
+                <div class="skill-chips-row">
+                  <span class="skill-chip">WCS G54 Offset</span>
+                  <span class="skill-chip">Pocket Milling</span>
+                  <span class="skill-chip">Contouring</span>
+                </div>
+              </div>
+
+              <!-- Skill Item 3 -->
+              <div class="skill-item-card">
+                <div class="skill-header-row">
+                  <div class="skill-name-wrap">
+                    <span>📐</span> 3D Design & 3D Printing
+                  </div>
+                  <span class="skill-level-badge">GTTC Hubli</span>
+                </div>
+                <div class="skill-chips-row">
+                  <span class="skill-chip">3D CAD Modeling</span>
+                  <span class="skill-chip">2D Drafting</span>
+                  <span class="skill-chip">Prototyping</span>
+                </div>
+              </div>
+
+              <!-- Skill Item 4 -->
+              <div class="skill-item-card">
+                <div class="skill-header-row">
+                  <div class="skill-name-wrap">
+                    <span>💧</span> Industrial Pumps & Motors
+                  </div>
+                  <span class="skill-level-badge">Hands-on</span>
+                </div>
+                <div class="skill-chips-row">
+                  <span class="skill-chip">Centrifugal Pumps</span>
+                  <span class="skill-chip">Induction Motors</span>
+                  <span class="skill-chip">Shaft Alignment</span>
+                </div>
+              </div>
+
+              <!-- Skill Item 5 -->
+              <div class="skill-item-card">
+                <div class="skill-header-row">
+                  <div class="skill-name-wrap">
+                    <span>📏</span> Metrology & Inspection
+                  </div>
+                  <span class="skill-level-badge">High Precision</span>
+                </div>
+                <div class="skill-chips-row">
+                  <span class="skill-chip">Vernier Caliper</span>
+                  <span class="skill-chip">Micrometer</span>
+                  <span class="skill-chip">Dial Gauges</span>
+                </div>
+              </div>
+
+              <!-- Skill Item 6 -->
+              <div class="skill-item-card">
+                <div class="skill-header-row">
+                  <div class="skill-name-wrap">
+                    <span>🤖</span> AI Prompt Engineering & Cloud Tools
+                  </div>
+                  <span class="skill-level-badge">Microsoft & Google</span>
+                </div>
+                <div class="skill-chips-row">
+                  <span class="skill-chip">GitHub Copilot</span>
+                  <span class="skill-chip">Prompt Design</span>
+                  <span class="skill-chip">Google Cloud</span>
+                  <span class="skill-chip">Digital Workflows</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 2: Traditional Arts -->
+          <div class="glass-card skill-category-card reveal-on-scroll stagger-delay-1" data-domain="cultural">
+            <div class="skill-cat-header">
+              <span style="font-size: 1.5rem;">🪈</span>
+              <h3 class="skill-cat-title">Traditional Arts & Music</h3>
+            </div>
+            <div class="skill-cards-list">
+              <!-- Cultural Skill 1 -->
+              <div class="skill-item-card gold">
+                <div class="skill-header-row">
+                  <div class="skill-name-wrap">
+                    <span>🎭</span> Yakshagana Theatre & Dance
+                  </div>
+                  <span class="skill-level-badge gold">Stage Mastery</span>
+                </div>
+                <div class="skill-chips-row">
+                  <span class="skill-chip">Classical Footwork</span>
+                  <span class="skill-chip">Navarasa Acting</span>
+                  <span class="skill-chip">Mudi & Costumes</span>
+                </div>
+              </div>
+
+              <!-- Cultural Skill 2 -->
+              <div class="skill-item-card gold">
+                <div class="skill-header-row">
+                  <div class="skill-name-wrap">
+                    <span>🥁</span> Kamsale Rhythm Dance
+                  </div>
+                  <span class="skill-level-badge gold">Dasara Performer</span>
+                </div>
+                <div class="skill-chips-row">
+                  <span class="skill-chip">Bronze Cymbals</span>
+                  <span class="skill-chip">Acrobatic Jumps</span>
+                  <span class="skill-chip">Folk Rhythms</span>
+                </div>
+              </div>
+
+              <!-- Cultural Skill 3 -->
+              <div class="skill-item-card gold">
+                <div class="skill-header-row">
+                  <div class="skill-name-wrap">
+                    <span>🪈</span> Indian Bamboo Flute (Bansuri)
+                  </div>
+                  <span class="skill-level-badge gold">Classical & Folk</span>
+                </div>
+                <div class="skill-chips-row">
+                  <span class="skill-chip">Ragas & Swaras</span>
+                  <span class="skill-chip">Breath Control</span>
+                  <span class="skill-chip">Folk Melodies</span>
+                </div>
+              </div>
+
+              <!-- Cultural Skill 4 -->
+              <div class="skill-item-card gold">
+                <div class="skill-header-row">
+                  <div class="skill-name-wrap">
+                    <span>🥢</span> Kolata & Tamate Percussion
+                  </div>
+                  <span class="skill-level-badge gold">CM Stage</span>
+                </div>
+                <div class="skill-chips-row">
+                  <span class="skill-chip">Stick Choreography</span>
+                  <span class="skill-chip">Tamate Drum</span>
+                  <span class="skill-chip">Group Rhythm</span>
+                </div>
+              </div>
+
+              <!-- Cultural Skill 5 -->
+              <div class="skill-item-card gold">
+                <div class="skill-header-row">
+                  <div class="skill-name-wrap">
+                    <span>👑</span> State Stage Performances
+                  </div>
+                  <span class="skill-level-badge gold">Honored</span>
+                </div>
+                <div class="skill-chips-row">
+                  <span class="skill-chip">Mysore Dasara</span>
+                  <span class="skill-chip">CM State Stage</span>
+                  <span class="skill-chip">Cultural Parades</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 3: Professional & Leadership -->
+          <div class="glass-card skill-category-card reveal-on-scroll stagger-delay-2">
+            <div class="skill-cat-header">
+              <span style="font-size: 1.5rem;">🌟</span>
+              <h3 class="skill-cat-title">Leadership & Professional</h3>
+            </div>
+            <div class="skill-cards-list">
+              <!-- Leadership Skill 1 -->
+              <div class="skill-item-card saffron">
+                <div class="skill-header-row">
+                  <div class="skill-name-wrap">
+                    <span>🚩</span> Community Volunteering
+                  </div>
+                  <span class="skill-level-badge saffron">RSS Karyakarta</span>
+                </div>
+                <div class="skill-chips-row">
+                  <span class="skill-chip">Social Initiatives</span>
+                  <span class="skill-chip">Cultural Events</span>
+                  <span class="skill-chip">Discipline Training</span>
+                </div>
+              </div>
+
+              <!-- Leadership Skill 2 -->
+              <div class="skill-item-card saffron">
+                <div class="skill-header-row">
+                  <div class="skill-name-wrap">
+                    <span>🤝</span> Teamwork & Coordination
+                  </div>
+                  <span class="skill-level-badge saffron">Excellence</span>
+                </div>
+                <div class="skill-chips-row">
+                  <span class="skill-chip">Large Troop Coordination</span>
+                  <span class="skill-chip">Event Logistics</span>
+                  <span class="skill-chip">Communication</span>
+                </div>
+              </div>
+
+              <!-- Leadership Skill 3 -->
+              <div class="skill-item-card saffron">
+                <div class="skill-header-row">
+                  <div class="skill-name-wrap">
+                    <span>🛡️</span> Workshop Safety & Standards
+                  </div>
+                  <span class="skill-level-badge saffron">100% Compliance</span>
+                </div>
+                <div class="skill-chips-row">
+                  <span class="skill-chip">PPE Protocols</span>
+                  <span class="skill-chip">Machine Lockout</span>
+                  <span class="skill-chip">Hazard Prevention</span>
+                </div>
+              </div>
+
+              <!-- Leadership Skill 4 -->
+              <div class="skill-item-card saffron">
+                <div class="skill-header-row">
+                  <div class="skill-name-wrap">
+                    <span>💡</span> Technical Problem Solving
+                  </div>
+                  <span class="skill-level-badge saffron">Analytical</span>
+                </div>
+                <div class="skill-chips-row">
+                  <span class="skill-chip">Toolpath Optimization</span>
+                  <span class="skill-chip">Diagnostics</span>
+                  <span class="skill-chip">Quality Focus</span>
+                </div>
+              </div>
+
+              <!-- Leadership Skill 5 -->
+              <div class="skill-item-card saffron">
+                <div class="skill-header-row">
+                  <div class="skill-name-wrap">
+                    <span>⚡</span> Physical Stamina & Discipline
+                  </div>
+                  <span class="skill-level-badge saffron">High Endurance</span>
+                </div>
+                <div class="skill-chips-row">
+                  <span class="skill-chip">Long Workshop Hours</span>
+                  <span class="skill-chip">High-Energy Dance</span>
+                  <span class="skill-chip">Precision Focus</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         Contact & Connect Section
+         ========================================================================= -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag">Connect With Me</span>
+          <h2 class="section-title">Let's Build & Collaborate</h2>
+          <p class="section-subtitle">
+            Whether you have an industrial engineering opportunity, CNC project, 3D printing & CAD collaboration, or cultural performance inquiry — feel free to reach out!
+          </p>
+        </div>
+
+        <div class="contact-cards-container">
+          <!-- 4 Core Social & Contact Cards -->
+          <div class="contact-channels-grid">
+            <!-- 1. Phone / Contact & WhatsApp Card -->
+            <a href="https://wa.me/919113015154?text=Hello%20Nitesh,%20I%20viewed%20your%20portfolio!" target="_blank" rel="noopener noreferrer" class="contact-social-card phone reveal-on-scroll">
+              <div class="contact-card-icon-box" title="WhatsApp / Call">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="contact-card-title">Contact & Call</h3>
+                <p class="contact-card-value">+91 9113015154</p>
+              </div>
+              <span class="contact-card-action-pill">Call / WhatsApp ↗</span>
+            </a>
+
+            <!-- 2. Email Card -->
+            <a href="mailto:niteshjituri@gmail.com" class="contact-social-card email reveal-on-scroll stagger-delay-1">
+              <div class="contact-card-icon-box" title="Send Email">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div>
+                <h3 class="contact-card-title">Email</h3>
+                <p class="contact-card-value">niteshjituri@gmail.com</p>
+              </div>
+              <span class="contact-card-action-pill">Send Email ↗</span>
+            </a>
+
+            <!-- 3. LinkedIn Card -->
+            <a href="https://www.linkedin.com/in/nitesh-jituri-48810a434?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" class="contact-social-card linkedin reveal-on-scroll stagger-delay-2">
+              <div class="contact-card-icon-box" title="LinkedIn Profile">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v7.6h2.79v-7.6H6.46M7.86 6.5a1.63 1.63 0 0 0-1.63 1.63c0 .9.73 1.63 1.63 1.63s1.63-.73 1.63-1.63c0-.9-.73-1.63-1.63-1.63Z"/>
+                </svg>
+              </div>
+              <div>
+                <h3 class="contact-card-title">LinkedIn</h3>
+                <p class="contact-card-value">Nitesh Jituri</p>
+              </div>
+              <span class="contact-card-action-pill">Connect on LinkedIn ↗</span>
+            </a>
+
+            <!-- 4. Instagram Card -->
+            <a href="https://www.instagram.com/nitesh_jituri8147?igsi=MWs3YjlwczNmaXMwNw==" target="_blank" rel="noopener noreferrer" class="contact-social-card instagram reveal-on-scroll stagger-delay-3">
+              <div class="contact-card-icon-box" title="Instagram Profile">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                </svg>
+              </div>
+              <div>
+                <h3 class="contact-card-title">Instagram</h3>
+                <p class="contact-card-value">@nitesh_jituri8147</p>
+              </div>
+              <span class="contact-card-action-pill">Follow on Instagram ↗</span>
+            </a>
+          </div>
+
+          <!-- Location Banner with Quick Social Icon Strip (like image 2) -->
+          <div class="contact-location-banner reveal-on-scroll">
+            <div style="display: flex; align-items: center; gap: 1rem;">
+              <div style="font-size: 2rem; width: 50px; height: 50px; border-radius: 50%; background: rgba(251, 191, 36, 0.15); display: flex; align-items: center; justify-content: center; color: var(--accent-gold);">📍</div>
+              <div>
+                <h4 style="font-size: 1.15rem; font-weight: 700;">Karnataka, India</h4>
+                <p style="font-size: 0.88rem; color: var(--text-secondary);">Mechanical Engineering Student • Traditional Folk Artist & Flutist</p>
+              </div>
+            </div>
+
+            <!-- Sleek Icon Strip -->
+            <div class="social-icon-strip">
+              <a href="https://www.linkedin.com/in/nitesh-jituri-48810a434?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" class="social-icon-box" title="LinkedIn Profile" aria-label="LinkedIn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v7.6h2.79v-7.6H6.46M7.86 6.5a1.63 1.63 0 0 0-1.63 1.63c0 .9.73 1.63 1.63 1.63s1.63-.73 1.63-1.63c0-.9-.73-1.63-1.63-1.63Z"/></svg>
+              </a>
+              <a href="https://www.instagram.com/nitesh_jituri8147?igsi=MWs3YjlwczNmaXMwNw==" target="_blank" rel="noopener noreferrer" class="social-icon-box" title="Instagram Profile" aria-label="Instagram">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+              </a>
+              <a href="mailto:niteshjituri@gmail.com" class="social-icon-box" title="Send Email" aria-label="Email">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              </a>
+              <a href="tel:+919113015154" class="social-icon-box" title="Direct Phone Call" aria-label="Phone">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       Footer
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="brand-logo" style="margin-bottom: 0.75rem;">
+            <div class="brand-badge">NJ</div>
+            <span class="brand-name">Nitesh Jituri</span>
+          </div>
+          <p style="font-size: 0.9rem;">
+            Mechanical Engineering Diploma Student • CNC Specialist (VTU-NASD Grade A+) • GTTC Hubli 3D Design Trained • Folk Dancer & Flutist • RSS Volunteer.
+          </p>
+          <div class="footer-quote">
+            "Remember, your work is only as good as the precision and soul you put into it." — Inspired by Bharat Ratna Sir M. Visvesvaraya.
+          </div>
+        </div>
+
+        <div>
+          <h4 style="font-size: 1.1rem; margin-bottom: 1rem;">Quick Navigation</h4>
+          <ul style="list-style: none; display: flex; flex-direction: column; gap: 0.5rem; font-size: 0.9rem;">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About & Story</a></li>
+            <li><a href="#engineering">Engineering & CNC Simulator</a></li>
+            <li><a href="#cultural">Cultural Arts & Flute Synth</a></li>
+            <li><a href="#certificates">Verified Certifications</a></li>
+            <li><a href="#timeline">Career Roadmap</a></li>
+            <li><a href="#skills">Skills Matrix</a></li>
+            <li><a href="#contact">Contact & Connect</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 style="font-size: 1.1rem; margin-bottom: 1rem;">Featured Badges</h4>
+          <div style="display: flex; flex-direction: column; gap: 0.6rem; font-size: 0.85rem;">
+            <span class="badge">⚙️ CNC Turning & Milling (A+)</span>
+            <span class="badge">📐 GTTC 16-Week Advance Manufacturing</span>
+            <span class="badge">🤖 Prompt Engineering (Microsoft)</span>
+            <span class="badge badge-gold">👑 Mysore Dasara Jamboo Savari</span>
+            <span class="badge badge-saffron">🏛️ CM Stage Folk Performer</span>
+            <span class="badge">🪈 Classical & Folk Bansuri</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Nitesh Jituri. Crafted with modern HTML5, Vanilla CSS & ES6 JavaScript. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       Modal: Dynamic High-Resolution Certificate Viewer Lightbox
+       ========================================================================= -->
+  <div class="modal-overlay" id="certModal" role="dialog" aria-modal="true" aria-labelledby="certModalTitle">
+    <div class="modal-dialog cert-modal-dialog">
+      <div class="modal-header">
+        <div style="display: flex; align-items: center; gap: 0.85rem;">
+          <span style="font-size: 1.5rem;">📜</span>
+          <div>
+            <h3 id="certModalTitle" style="font-size: 1.2rem; font-weight: 700; margin: 0; line-height: 1.3;">Certificate Title</h3>
+            <span id="certModalSubtitle" style="font-size: 0.85rem; color: var(--text-secondary);">Issuing Authority</span>
+          </div>
+        </div>
+        <button class="modal-close-btn btn-close-cert" aria-label="Close modal">✕</button>
+      </div>
+      <div class="modal-body cert-modal-body">
+        <div class="cert-modal-media-frame">
+          <img id="certModalImg" src="assets/certificates/nitesh_cnc_certificate.jpg" alt="High-Resolution Certificate Preview" class="cert-modal-img">
+        </div>
+        <div class="cert-modal-meta-box">
+          <div class="cert-modal-meta-row">
+            <div>
+              <div style="font-size: 0.78rem; text-transform: uppercase; color: var(--text-muted); font-weight: 700; letter-spacing: 0.04em;">Credential ID / Code</div>
+              <div id="certModalReg" style="font-family: var(--font-mono); color: var(--accent-cyan); font-weight: 700; font-size: 0.95rem; margin-top: 0.15rem;">VTU/NASD/2025-26/CNC/B01-5</div>
+            </div>
+            <div>
+              <div style="font-size: 0.78rem; text-transform: uppercase; color: var(--text-muted); font-weight: 700; letter-spacing: 0.04em;">Award / Status</div>
+              <div id="certModalGrade" style="color: var(--accent-gold); font-weight: 700; font-size: 0.95rem; margin-top: 0.15rem;">Grade Secured: "A+" (>80%)</div>
+            </div>
+            <div>
+              <div style="font-size: 0.78rem; text-transform: uppercase; color: var(--text-muted); font-weight: 700; letter-spacing: 0.04em;">Duration / Issued</div>
+              <div id="certModalDuration" style="color: var(--text-primary); font-weight: 600; font-size: 0.95rem; margin-top: 0.15rem;">160 Hours (30 Days)</div>
+            </div>
+          </div>
+          <p id="certModalDesc" style="font-size: 0.9rem; color: var(--text-secondary); line-height: 1.5; margin: 0.25rem 0 0;"></p>
+        </div>
+      </div>
+      <div class="cert-modal-footer">
+        <div class="modal-nav-group">
+          <button class="btn btn-secondary btn-sm" id="btnCertPrev" aria-label="Previous Certificate">❮ Prev</button>
+          <span class="modal-counter-badge" id="certModalCounter">1 of 4</span>
+          <button class="btn btn-secondary btn-sm" id="btnCertNext" aria-label="Next Certificate">Next ❯</button>
+        </div>
+        <div style="display: flex; gap: 0.75rem; align-items: center; flex-wrap: wrap;">
+          <a href="assets/certificates/vtu_nasd_cnc_certificate.pdf" id="certModalPdfLink" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+            <span>📄</span> Open Original PDF ↗
+          </a>
+          <button class="btn btn-secondary btn-sm btn-close-cert">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/flute-synth.js?v=2.0"></script>
+  <script src="js/cnc-simulator.js?v=2.0"></script>
+  <script src="js/main.js?v=2.0"></script>
+</body>
+</html>
