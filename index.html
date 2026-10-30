@@ -2,7 +2,7 @@
 <html lang="en" data-theme="dark">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>Nitesh Jituri | Mechanical Engineer & Traditional Folk Artist</title>
   <meta name="description" content="Portfolio of Nitesh Jituri - Mechanical Engineering Diploma Student, Certified CNC Programmer (VTU-NASD Grade A+), CAD & 3D Printing Specialist (GTTC Hubli), and Traditional Indian Folk Dancer & Flutist from Karnataka, India.">
   <meta name="keywords" content="Nitesh Jituri, Mechanical Engineering, CNC Machining, VTU NASD Dandeli, GTTC Hubli, 3D Printing, CAD Design, Mysore Dasara, Yakshagana, Kamsale, Flute, Industrial Pumps, Motors, Karnataka">
@@ -20,8 +20,8 @@
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
   <!-- Core Stylesheets -->
-  <link rel="stylesheet" href="css/style.css?v=2.0">
-  <link rel="stylesheet" href="css/animations.css?v=2.0">
+  <link rel="stylesheet" href="css/style.css?v=3.0">
+  <link rel="stylesheet" href="css/animations.css?v=3.0">
 </head>
 <body>
 
@@ -47,14 +47,19 @@
         <li><a href="#timeline" class="nav-link">Journey</a></li>
         <li><a href="#skills" class="nav-link">Skills</a></li>
         <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li class="mobile-nav-cta">
+          <a href="#contact" class="btn btn-primary btn-sm mobile-cta-btn">
+            <span>✉️</span> Get In Touch
+          </a>
+        </li>
       </ul>
 
       <div class="nav-actions">
         <button id="themeToggleBtn" class="icon-btn" aria-label="Toggle Dark/Light Theme" title="Toggle Theme">
           <span id="themeIcon">☀️</span>
         </button>
-        <a href="#contact" class="btn btn-primary btn-sm">Get In Touch</a>
-        <button class="icon-btn mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Mobile Menu">
+        <a href="#contact" class="btn btn-primary btn-sm nav-desktop-cta">Get In Touch</a>
+        <button class="icon-btn mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Mobile Menu" aria-expanded="false">
           ☰
         </button>
       </div>
@@ -123,7 +128,7 @@
                 <img src="assets/images/nitesh_profile.jpg" alt="Nitesh Jituri - Mechanical Engineer & Artist" width="360" height="360">
               </div>
 
-              <!-- Floating Badges -->
+              <!-- Desktop Floating Badges (Visible on screens > 768px) -->
               <div class="floating-badge badge-top animate-float">
                 <div class="badge-icon-box">🏆</div>
                 <div class="badge-info">
@@ -137,6 +142,24 @@
                 <div class="badge-info">
                   <span class="badge-title">Mysore Dasara Artist</span>
                   <span class="badge-sub">Jamboo Savari Performer</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Mobile-only Clean Badges Stack (Visible on screens <= 768px) -->
+            <div class="hero-mobile-badges">
+              <div class="mobile-badge-card">
+                <div class="badge-icon-box">🏆</div>
+                <div class="badge-info">
+                  <span class="badge-title">VTU-NASD Certified (Grade A+)</span>
+                  <span class="badge-sub">160-Hr CNC Turning & Milling</span>
+                </div>
+              </div>
+              <div class="mobile-badge-card gold">
+                <div class="badge-icon-box">🪈</div>
+                <div class="badge-info">
+                  <span class="badge-title">Mysore Dasara Artist</span>
+                  <span class="badge-sub">Jamboo Savari & CM Stage Performer</span>
                 </div>
               </div>
             </div>
@@ -1315,8 +1338,8 @@
   </div>
 
   <!-- Scripts -->
-  <script src="js/flute-synth.js?v=2.0"></script>
-  <script src="js/cnc-simulator.js?v=2.0"></script>
-  <script src="js/main.js?v=2.0"></script>
+  <script src="js/flute-synth.js?v=3.0"></script>
+  <script src="js/cnc-simulator.js?v=3.0"></script>
+  <script src="js/main.js?v=3.0"></script>
 </body>
 </html>

@@ -106,9 +106,9 @@ class CNCSimulator {
   }
 
   initCanvasSize() {
-    const rect = this.canvas.parentElement.getBoundingClientRect();
-    this.canvas.width = rect.width || 560;
-    this.canvas.height = 260;
+    const rect = this.canvas.parentElement ? this.canvas.parentElement.getBoundingClientRect() : { width: 560, height: 260 };
+    this.canvas.width = Math.floor(rect.width || (window.innerWidth < 480 ? 320 : 560));
+    this.canvas.height = Math.floor(rect.height || (window.innerWidth < 480 ? 220 : 260));
   }
 
   setupListeners() {
@@ -329,21 +329,25 @@ class CNCSimulator {
 
   drawTurningSimulation(w, h) {
     const ctx = this.ctx;
-    const originX = 120;
+    const isMobile = w < 480;
+    const originX = isMobile ? Math.max(45, w * 0.18) : 120;
     const originY = h / 2;
-    const scale = 1.6;
+    const scale = isMobile ? Math.min(1.2, Math.max(0.7, (w - originX - 30) / 160)) : 1.6;
 
     // 1. Chuck Clamps (Left side)
+    const chuckW = isMobile ? Math.max(30, originX - 25) : 70;
+    const jawX = isMobile ? Math.max(35, originX - 20) : 80;
+    const jawW = isMobile ? 15 : 25;
     ctx.fillStyle = '#1e293b';
     ctx.strokeStyle = '#475569';
     ctx.lineWidth = 2;
-    ctx.fillRect(20, originY - 70, 70, 140);
-    ctx.strokeRect(20, originY - 70, 70, 140);
+    ctx.fillRect(10, originY - (isMobile ? 55 : 70), chuckW, isMobile ? 110 : 140);
+    ctx.strokeRect(10, originY - (isMobile ? 55 : 70), chuckW, isMobile ? 110 : 140);
 
     // Jaws
     ctx.fillStyle = '#334155';
-    ctx.fillRect(80, originY - 60, 25, 30);
-    ctx.fillRect(80, originY + 30, 25, 30);
+    ctx.fillRect(jawX, originY - (isMobile ? 50 : 60), jawW, isMobile ? 22 : 30);
+    ctx.fillRect(jawX, originY + (isMobile ? 28 : 30), jawW, isMobile ? 22 : 30);
 
     // Centerline (Lathe Axis)
     ctx.setLineDash([6, 6]);
@@ -427,9 +431,10 @@ class CNCSimulator {
 
   drawMillingSimulation(w, h) {
     const ctx = this.ctx;
-    const originX = 80;
-    const originY = 40;
-    const scale = 2.0;
+    const isMobile = w < 480;
+    const originX = isMobile ? 20 : 80;
+    const originY = isMobile ? 25 : 40;
+    const scale = isMobile ? Math.min(1.4, Math.max(0.75, (w - 40) / 180)) : 2.0;
 
     // Milling Billet (Stock plate)
     ctx.fillStyle = '#1e293b';
